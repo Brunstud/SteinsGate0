@@ -1,0 +1,202 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Dec 23 13:27:45 2023
+# Process ID: 18916
+# Current directory: D:/Program/vivado/SteinsGate0_GIT/Glowtube
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22408 D:\Program\vivado\SteinsGate0_GIT\Glowtube\Glowtube.xpr
+# Log file: D:/Program/vivado/SteinsGate0_GIT/Glowtube/vivado.log
+# Journal file: D:/Program/vivado/SteinsGate0_GIT/Glowtube\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.xpr
+file mkdir D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new
+close [ open D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/seven_segment_display.v w ]
+add_files D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/seven_segment_display.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+file mkdir D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sim_1/new/seven_segment_display_tb.v w ]
+add_files -fileset sim_1 D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sim_1/new/seven_segment_display_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property target_simulator ModelSim [current_project]
+set_property compxlib.modelsim_compiled_library_dir D:/xilinx_sim_lib [current_project]
+launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe -noclean_dir
+close [ open D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/test_ssd.v w ]
+add_files D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/test_ssd.v
+update_compile_order -fileset sources_1
+close [ open D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/hex_to_bcd.v w ]
+add_files D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/hex_to_bcd.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+place_ports {anodes[0]} J17
+set_property package_pin "" [get_ports [list  {anodes[2]}]]
+place_ports {anodes[1]} J18
+place_ports {anodes[2]} T9
+place_ports {anodes[3]} J14
+place_ports {anodes[4]} P14
+place_ports {anodes[5]} T14
+place_ports {anodes[6]} K2
+place_ports {anodes[7]} U13
+place_ports {choice[0]} J15
+place_ports {choice[1]} L16
+place_ports {choice[2]} M13
+place_ports {choice[3]} R15
+place_ports {choice[4]} R17
+place_ports {choice[5]} T18
+place_ports {choice[6]} U18
+place_ports {choice[7]} R13
+place_ports {segments[0]} T10
+place_ports {segments[1]} R10
+place_ports {segments[2]} K16
+place_ports {segments[3]} K13
+place_ports {segments[4]} P15
+place_ports {segments[5]} T11
+place_ports {segments[6]} L18
+place_ports {segments[7]} H15
+place_ports clk E3
+place_ports reset N17
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {segments[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {segments[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {segments[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {segments[7]} {segments[6]} {segments[5]} {segments[4]} {segments[3]} {segments[2]} {segments[1]} {segments[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {choice[7]} {choice[6]} {choice[5]} {choice[4]} {choice[3]} {choice[2]} {choice[1]} {choice[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {anodes[7]} {anodes[6]} {anodes[5]} {anodes[4]} {anodes[3]} {anodes[2]} {anodes[1]} {anodes[0]}]]
+file mkdir D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/constrs_1/new
+close [ open D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/constrs_1/new/test_ssd.xdc w ]
+add_files -fileset constrs_1 D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/constrs_1/new/test_ssd.xdc
+set_property target_constrs_file D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/constrs_1/new/test_ssd.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210292A8B613A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210292A8B613A]
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210292A8B613A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210292A8B613A]
+open_hw_target
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/impl_1/test_ssd.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/impl_1/test_ssd.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
+startgroup
+set_property package_pin "" [get_ports [list  {segments[0]}]]
+place_ports {segments[7]} T10
+endgroup
+startgroup
+set_property package_pin "" [get_ports [list  {segments[1]}]]
+place_ports {segments[6]} R10
+endgroup
+startgroup
+set_property package_pin "" [get_ports [list  {segments[2]}]]
+place_ports {segments[5]} K16
+endgroup
+startgroup
+set_property package_pin "" [get_ports [list  {segments[3]}]]
+place_ports {segments[4]} K13
+endgroup
+place_ports {segments[3]} P15
+place_ports {segments[2]} T11
+place_ports {segments[1]} L18
+save_constraints -force
+place_ports {segments[0]} H15
+set_property is_loc_fixed false [get_ports [list  {segments[0]}]]
+set_property is_loc_fixed true [get_ports [list  {segments[0]}]]
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210292A8B613A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210292A8B613A]
+open_hw_target
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/impl_1/test_ssd.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/impl_1/test_ssd.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/impl_1/test_ssd.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+close [ open D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/title_display_7seg.v w ]
+add_files D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/title_display_7seg.v
+update_compile_order -fileset sources_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/impl_1/test_ssd.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/impl_1/test_ssd.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210292A8B613A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210292A8B613A]
+open_hw_target
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/impl_1/test_ssd.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+remove_files D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/title_display_7seg.v

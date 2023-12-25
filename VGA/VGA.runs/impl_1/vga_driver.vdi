@@ -1,0 +1,133 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Dec 23 16:09:55 2023
+# Process ID: 11752
+# Current directory: D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1
+# Command line: vivado.exe -log vga_driver.vdi -applog -messageDb vivado.pb -mode batch -source vga_driver.tcl -notrace
+# Log file: D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver.vdi
+# Journal file: D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source vga_driver.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc]
+WARNING: [Vivado 12-584] No ports matched 'rst_n'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hsync'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vsync'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red[0]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red[1]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red[2]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red[3]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green[0]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green[1]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green[2]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green[3]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'blue[0]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'blue[1]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'blue[2]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'blue[3]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'blue[3]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'blue[2]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'blue[1]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'blue[0]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green[3]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green[2]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green[1]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green[0]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red[3]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red[2]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red[1]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red[0]'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hsync'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rst_n'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vsync'. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 488.965 ; gain = 4.457

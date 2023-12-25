@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Dec 25 20:21:38 2023
+# Process ID: 5604
+# Current directory: D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/synth_1
+# Command line: vivado.exe -log vga_test.vds -mode batch -messageDb vivado.pb -notrace -source vga_test.tcl
+# Log file: D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/synth_1/vga_test.vds
+# Journal file: D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source vga_test.tcl -notrace

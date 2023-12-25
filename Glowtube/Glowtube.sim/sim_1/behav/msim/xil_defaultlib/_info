@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.sim/sim_1/behav
+vglbl
+Z1 !s110 1703311127
+!i10b 1
+!s100 g=dL3UKAkhNRkQ:7=fPzF1
+IkJ@CGO[n5[_3E=ZkTzmEk2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1464879896
+8glbl.v
+Fglbl.v
+L0 6
+Z3 OP;L;10.4c;61
+r1
+!s85 0
+31
+!s108 1703311127.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+Z4 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vseven_segment_display
+R1
+!i10b 1
+!s100 lLS2e3Hnd2JV6R39EGEMB0
+IL?b7dOGKRUZfnA0a]NCkO3
+R2
+R0
+w1703310908
+8../../../Glowtube.srcs/sources_1/new/seven_segment_display.v
+F../../../Glowtube.srcs/sources_1/new/seven_segment_display.v
+L0 21
+R3
+r1
+!s85 0
+31
+Z5 !s108 1703311126.000000
+Z6 !s107 ../../../Glowtube.srcs/sim_1/new/seven_segment_display_tb.v|../../../Glowtube.srcs/sources_1/new/seven_segment_display.v|
+Z7 !s90 -64|-incr|-work|xil_defaultlib|../../../Glowtube.srcs/sources_1/new/seven_segment_display.v|../../../Glowtube.srcs/sim_1/new/seven_segment_display_tb.v|
+!i113 1
+R4
+vtestbench
+R1
+!i10b 1
+!s100 :JdZUga:k90YD:^6EMUod3
+Ib^KTYeDT0:SaNAT[O]jB53
+R2
+R0
+w1703311108
+8../../../Glowtube.srcs/sim_1/new/seven_segment_display_tb.v
+F../../../Glowtube.srcs/sim_1/new/seven_segment_display_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R4

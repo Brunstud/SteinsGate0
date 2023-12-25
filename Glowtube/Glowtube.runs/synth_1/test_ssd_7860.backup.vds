@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Dec 23 14:26:34 2023
+# Process ID: 7860
+# Current directory: D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/synth_1
+# Command line: vivado.exe -log test_ssd.vds -mode batch -messageDb vivado.pb -notrace -source test_ssd.tcl
+# Log file: D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/synth_1/test_ssd.vds
+# Journal file: D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source test_ssd.tcl -notrace
+Command: synth_design -top test_ssd -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19988 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 305.824 ; gain = 98.840
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'test_ssd' [D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/test_ssd.v:23]
+INFO: [Synth 8-638] synthesizing module 'seven_segment_display' [D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/seven_segment_display.v:22]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment_display' (1#1) [D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/seven_segment_display.v:22]
+INFO: [Synth 8-638] synthesizing module 'hex_to_bcd' [D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/hex_to_bcd.v:22]
+INFO: [Synth 8-256] done synthesizing module 'hex_to_bcd' (2#1) [D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/hex_to_bcd.v:22]
+ERROR: [Synth 8-685] variable 'bcd' should not be used in output port connection [D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/test_ssd.v:41]
+ERROR: [Synth 8-285] failed synthesizing module 'test_ssd' [D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/test_ssd.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 342.859 ; gain = 135.875
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 23 14:26:42 2023...

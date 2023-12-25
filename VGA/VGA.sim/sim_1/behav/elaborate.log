@@ -1,0 +1,8 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 2dddfe9005c345658d238b1b3dc40cbe --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vga_test_tb_behav xil_defaultlib.vga_test_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1047] module instantiation should have an instance name [D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/new/vga_test.v:39]
+ERROR: [VRFC 10-2063] Module <vga_driver_640x480> not found while processing module instance <'Undefined'>
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

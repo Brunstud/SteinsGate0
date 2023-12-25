@@ -1,0 +1,142 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Dec 23 15:44:08 2023
+# Process ID: 5600
+# Current directory: D:/Program/vivado/SteinsGate0_GIT/VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19204 D:\Program\vivado\SteinsGate0_GIT\VGA\VGA.xpr
+# Log file: D:/Program/vivado/SteinsGate0_GIT/VGA/vivado.log
+# Journal file: D:/Program/vivado/SteinsGate0_GIT/VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run impl_1 -noclean_dir 
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+place_ports {O_blue[0]} B7
+place_ports {O_blue[1]} C7
+place_ports {O_blue[2]} D7
+set_property package_pin "" [get_ports [list  {O_blue[3]}]]
+place_ports {O_blue[3]} D8
+place_ports {O_green[0]} C6
+set_property package_pin "" [get_ports [list  {O_green[2]}]]
+place_ports {O_green[1]} A5
+place_ports {O_green[2]} B6
+place_ports {O_green[3]} A6
+place_ports {O_red[0]} A3
+place_ports {O_red[1]} B4
+place_ports {O_red[2]} C5
+place_ports {O_red[3]} A4
+place_ports O_vs B12
+place_ports O_hs B11
+place_ports I_rst_n N17
+place_ports I_clk E3
+place_ports I_rst_n J15
+set_property IOSTANDARD LVCMOS33 [get_ports [list I_clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list I_clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list I_rst_n]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list O_hs]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list O_vs]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {O_red[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {O_blue[3]} {O_blue[2]} {O_blue[1]} {O_blue[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {O_green[3]} {O_green[2]} {O_green[1]} {O_green[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {O_red[3]} {O_red[2]} {O_red[1]} {O_red[0]}]]
+set_property target_constrs_file D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc [current_fileset -constrset]
+save_constraints -force
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210292A8B613A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210292A8B613A]
+open_hw_target
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_1024x768.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_1024x768.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_1024x768.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_1024x768.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_1024x768.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_1024x768.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_1024x768.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_1024x768.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_1024x768.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close [ open D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/new/VGA_sync.v w ]
+add_files D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/new/VGA_sync.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+remove_files D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/new/VGA_sync.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_640x480.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/impl_1/vga_driver_640x480.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+update_compile_order -fileset sources_1
