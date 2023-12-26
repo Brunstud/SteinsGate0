@@ -15,7 +15,15 @@ set_property webtalk.parent_dir D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.cache/
 set_property parent.project_path D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+add_files d:/Program/vivado/SteinsGate0_GIT/VGA/title0.coe
+add_files d:/Program/vivado/SteinsGate0_GIT/VGA/character0.coe
+add_files d:/Program/vivado/SteinsGate0_GIT/VGA/character1.coe
+add_files -quiet d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp
+set_property used_in_implementation false [get_files d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp]
+add_files -quiet d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/character0_rom/character0_rom.dcp
+set_property used_in_implementation false [get_files d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/character0_rom/character0_rom.dcp]
 read_verilog -library xil_defaultlib {
+  D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/new/Layers_Color.v
   D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/new/vga_driver_1024x600.v
   D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/new/VGA_color_syn.v
   D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/new/divider.v
@@ -26,9 +34,6 @@ foreach dcp [get_files -quiet -all *.dcp] {
 }
 read_xdc D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_test.xdc
 set_property used_in_implementation false [get_files D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_test.xdc]
-
-read_xdc D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc
-set_property used_in_implementation false [get_files D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc]
 
 
 synth_design -top vga_test -part xc7a100tcsg324-1

@@ -34,10 +34,10 @@ wire [11:0] pix_data;
 wire [11:0] pix_xpos;
 wire [11:0] pix_ypos;
 //时钟分频
-divider_2 d2(clk_100MHz, !rst_n, clk_25MHz);
+divider_2 d2(clk_100MHz, !rst_n, clk_50MHz);
 //颜色设置
 VGA_color_syn clr_syn_inst(
-    .vga_clk(clk_25MHz),        // VGA驱动时钟
+    .vga_clk(clk_50MHz),        // VGA驱动时钟
     .disp_en(disp_en),          // 显示有效信号
     .pix_xpos(pix_xpos),        // 像素点横坐标
     .pix_ypos(pix_ypos),        // 像素点纵坐标
@@ -45,7 +45,7 @@ VGA_color_syn clr_syn_inst(
     );
 //VGA驱动器
 vga_driver_1024x600 vga_driver_inst(
-    .clk_50MHz(clk_25MHz),       // VGA驱动时钟
+    .clk_50MHz(clk_50MHz),       // VGA驱动时钟
     .rst_n(!rst_n),              // 复位信号，低电平有效
     
     .disp_en(disp_en),                 //显示有效信号

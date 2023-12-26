@@ -75,8 +75,8 @@ assign pix_data_req_flag = ((cnt_h >= (H_SYNC + H_BACK          )) &&
                             ?  1'b1 : 1'b0;
 
 // 输出的像素点坐标
-assign pix_xpos = pix_data_req_flag ? (cnt_h - (H_SYNC + H_BACK)) : 12'd0;
-assign pix_ypos = pix_data_req_flag ? (cnt_v - (V_SYNC + V_BACK)) : 12'd0;
+assign pix_xpos = pix_data_req_flag ? (cnt_h - (H_SYNC + H_BACK) + 1'b1) : 12'd0;
+assign pix_ypos = pix_data_req_flag ? (cnt_v - (V_SYNC + V_BACK) + 1'b1) : 12'd0;
 
 // VGA行场同步信号
 assign vga_hs  = (cnt_h < H_SYNC ) ? 1'b0 : 1'b1;

@@ -56,9 +56,17 @@ set rc [catch {
   set_property parent.project_path D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.xpr [current_project]
   set_property ip_repo_paths d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.cache/ip [current_project]
   set_property ip_output_repo d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.cache/ip [current_project]
+  set_property XPM_LIBRARIES XPM_MEMORY [current_project]
   add_files -quiet D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.runs/synth_1/vga_test.dcp
+  add_files -quiet d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp
+  set_property netlist_only true [get_files d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp]
+  add_files -quiet d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/character0_rom/character0_rom.dcp
+  set_property netlist_only true [get_files d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/character0_rom/character0_rom.dcp]
+  read_xdc -mode out_of_context -ref blk_mem_gen_0 -cells U0 d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc
+  set_property processing_order EARLY [get_files d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
+  read_xdc -mode out_of_context -ref character0_rom -cells U0 d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/character0_rom/character0_rom_ooc.xdc
+  set_property processing_order EARLY [get_files d:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/ip/character0_rom/character0_rom_ooc.xdc]
   read_xdc D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_test.xdc
-  read_xdc D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/constrs_1/new/VGA_driver.xdc
   link_design -top vga_test -part xc7a100tcsg324-1
   write_hwdef -file vga_test.hwdef
   close_msg_db -file init_design.pb

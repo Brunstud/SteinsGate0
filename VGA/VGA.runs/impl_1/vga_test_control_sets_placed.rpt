@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Mon Dec 25 20:22:20 2023
+| Date         : Tue Dec 26 00:36:56 2023
 | Host         : LAPTOP-AB75201K running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file vga_test_control_sets_placed.rpt
 | Design       : vga_test
@@ -22,8 +22,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |     4 |
-| Unused register locations in slices containing registers |    20 |
+| Number of unique control sets                            |     8 |
+| Unused register locations in slices containing registers |    29 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,11 +33,11 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               3 |            1 |
+| No           | No                    | No                     |               8 |            8 |
 | No           | No                    | Yes                    |              13 |            4 |
-| No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |               0 |            0 |
-| Yes          | No                    | Yes                    |              12 |            4 |
+| No           | Yes                   | No                     |              36 |           12 |
+| Yes          | No                    | No                     |              22 |            7 |
+| Yes          | No                    | Yes                    |              12 |            3 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -45,13 +45,17 @@ Table of Contents
 3. Detailed Control Set Information
 -----------------------------------
 
-+-----------------------+----------------------------------+------------------+------------------+----------------+
-|      Clock Signal     |           Enable Signal          | Set/Reset Signal | Slice Load Count | Bel Load Count |
-+-----------------------+----------------------------------+------------------+------------------+----------------+
-|  clk_100MHz_IBUF_BUFG |                                  | rst_n_IBUF       |                1 |              1 |
-|  d2/O_CLK_reg         |                                  |                  |                1 |              3 |
-|  d2/O_CLK_reg         |                                  | rst_n_IBUF       |                3 |             12 |
-|  d2/O_CLK_reg         | nolabel_line47/cnt_v[11]_i_1_n_0 | rst_n_IBUF       |                4 |             12 |
-+-----------------------+----------------------------------+------------------+------------------+----------------+
++-----------------------+-----------------------------------+----------------------------+------------------+----------------+
+|      Clock Signal     |           Enable Signal           |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
++-----------------------+-----------------------------------+----------------------------+------------------+----------------+
+|  clk_100MHz_IBUF_BUFG |                                   | rst_n_IBUF                 |                1 |              1 |
+|  clk_50MHz_BUFG       |                                   |                            |                8 |              8 |
+|  clk_50MHz_BUFG       |                                   | vga_driver_inst/img_addr   |                4 |             12 |
+|  clk_50MHz_BUFG       |                                   | vga_driver_inst/img_addr_0 |                3 |             12 |
+|  clk_50MHz_BUFG       |                                   | vga_driver_inst/SR[0]      |                5 |             12 |
+|  clk_50MHz_BUFG       |                                   | rst_n_IBUF                 |                3 |             12 |
+|  clk_50MHz_BUFG       | vga_driver_inst/cnt_v[11]_i_1_n_0 | rst_n_IBUF                 |                3 |             12 |
+|  clk_50MHz_BUFG       | vga_driver_inst/ena               |                            |                7 |             22 |
++-----------------------+-----------------------------------+----------------------------+------------------+----------------+
 
 
