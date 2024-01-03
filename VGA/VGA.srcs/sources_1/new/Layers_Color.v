@@ -56,7 +56,8 @@ module Title_layer(
          .clka(vga_clk),
          .addra(img_addr),
          .douta(img_data),
-         .ena(disp_en) // 连接 ROM 输出数据到您的模块中
+         .ena(disp_en), // 连接 ROM 输出数据到您的模块中
+         .wea()
          );
 
 endmodule
@@ -97,7 +98,8 @@ module Character_layer(
          .clka(vga_clk),
          .addra(img_addr),
          .douta(img_data),
-         .ena(disp_en) // 连接 ROM 输出数据到您的模块中
+         .ena(disp_en), // 连接 ROM 输出数据到您的模块中
+         .wea()
          );
 
 endmodule

@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Tue Dec 26 00:40:17 2023">
+<application name="pa" timeStamp="Wed Dec 27 22:21:33 2023">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="beda1ccd3fce4c6ab2afc8b3b612e60d" type="ProjectID"/>
 <property name="ProjectIteration" value="45" type="ProjectIteration"/>
@@ -48,26 +48,61 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="WriteCfgMemFile" value="1" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="Layers_Color.v, 258, 94" value="1" type="GuiResourceData"/>
-<property name="Layers_Color.v, 298, 149" value="1" type="GuiResourceData"/>
-<property name="Layers_Color.v, 351, 347" value="1" type="GuiResourceData"/>
-<property name="Layers_Color.v, 369, 327" value="1" type="GuiResourceData"/>
-<property name="Layers_Color.v, 399, 279" value="1" type="GuiResourceData"/>
-<property name="Layers_Color.v, 420, 234" value="1" type="GuiResourceData"/>
-<property name="Layers_Color.v, 422, 193" value="1" type="GuiResourceData"/>
-<property name="Layers_Color.v, 424, 213" value="1" type="GuiResourceData"/>
-<property name="Layers_Color.v, 448, 146" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Program Device], 28, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
-<property name="vga_driver_1024x600.v, 127, 375" value="1" type="GuiResourceData"/>
-<property name="vga_driver_1024x600.v, 185, 234" value="1" type="GuiResourceData"/>
-<property name="vga_driver_1024x600.v, 50, 258" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, vga_driver_640x480 (vga_driver_640x480.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, vga_test (vga_test.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.xpr, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="2" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 111, 234" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 119, 202" value="2" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 119, 202, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 129, 199" value="2" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 129, 199, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 144, 259" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 144, 259, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 152, 205" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 165, 230" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 170, 202" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 170, 202, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 196, 349" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 196, 352" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 198, 328" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 200, 200" value="2" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 200, 200, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 222, 346" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 225, 248" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 225, 248, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 240, 332" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 243, 200" value="2" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 243, 200, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 245, 245" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 245, 245, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 266, 368" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 282, 308" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 302, 257" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 302, 271" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 333, 174" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 333, 218" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 335, 222" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 336, 307" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 336, 307, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 340, 182" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 347, 172" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 349, 150" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 352, 228" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 354, 284" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 512, 262" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 535, 167" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 60, 334" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 63, 327" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 84, 330" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 85, 205" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 85, 205, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_driver_1024x600.v, 97, 309" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="103" type="GuiMode"/>
+<property name="GuiMode" value="110" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="70" type="TclMode"/>
+<property name="TclMode" value="75" type="TclMode"/>
 </item>
 </section>
 </application>
