@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Tue Dec 26 22:11:54 2023
+| Date         : Thu Jan 11 00:08:06 2024
 | Host         : LAPTOP-AB75201K running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Gate_test_utilization_synth.rpt -pb Gate_test_utilization_synth.pb
 | Design       : Gate_test
@@ -30,13 +30,13 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |  672 |     0 |     63400 |  1.06 |
-|   LUT as Logic          |  672 |     0 |     63400 |  1.06 |
+| Slice LUTs*             | 2391 |     0 |     63400 |  3.77 |
+|   LUT as Logic          | 2391 |     0 |     63400 |  3.77 |
 |   LUT as Memory         |    0 |     0 |     19000 |  0.00 |
-| Slice Registers         |   63 |     0 |    126800 |  0.05 |
-|   Register as Flip Flop |   63 |     0 |    126800 |  0.05 |
+| Slice Registers         |  444 |     0 |    126800 |  0.35 |
+|   Register as Flip Flop |  444 |     0 |    126800 |  0.35 |
 |   Register as Latch     |    0 |     0 |    126800 |  0.00 |
-| F7 Muxes                |    9 |     0 |     31700 |  0.03 |
+| F7 Muxes                |    3 |     0 |     31700 | <0.01 |
 | F8 Muxes                |    0 |     0 |     15850 |  0.00 |
 +-------------------------+------+-------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
@@ -54,10 +54,10 @@ Table of Contents
 | 0     |            _ |         Set |            - |
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
-| 15    |          Yes |           - |          Set |
-| 24    |          Yes |           - |        Reset |
-| 0     |          Yes |         Set |            - |
-| 24    |          Yes |       Reset |            - |
+| 51    |          Yes |           - |          Set |
+| 209   |          Yes |           - |        Reset |
+| 44    |          Yes |         Set |            - |
+| 140   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -80,8 +80,8 @@ Table of Contents
 +----------------+------+-------+-----------+-------+
 |    Site Type   | Used | Fixed | Available | Util% |
 +----------------+------+-------+-----------+-------+
-| DSPs           |    1 |     0 |       240 |  0.42 |
-|   DSP48E1 only |    1 |       |           |       |
+| DSPs           |    5 |     0 |       240 |  2.08 |
+|   DSP48E1 only |    5 |       |           |       |
 +----------------+------+-------+-----------+-------+
 
 
@@ -91,7 +91,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |   37 |     0 |       210 | 17.62 |
+| Bonded IOB                  |   51 |     0 |       210 | 24.29 |
 | Bonded IPADs                |    0 |     0 |         2 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         6 |  0.00 |
 | PHASER_REF                  |    0 |     0 |         6 |  0.00 |
@@ -113,7 +113,7 @@ Table of Contents
 +------------+------+-------+-----------+-------+
 |  Site Type | Used | Fixed | Available | Util% |
 +------------+------+-------+-----------+-------+
-| BUFGCTRL   |    1 |     0 |        32 |  3.13 |
+| BUFGCTRL   |    3 |     0 |        32 |  9.38 |
 | BUFIO      |    0 |     0 |        24 |  0.00 |
 | MMCME2_ADV |    0 |     0 |         6 |  0.00 |
 | PLLE2_ADV  |    0 |     0 |         6 |  0.00 |
@@ -147,30 +147,40 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| LUT2     |  419 |                 LUT |
-| LUT6     |  204 |                 LUT |
-| CARRY4   |  126 |          CarryLogic |
-| LUT5     |   39 |                 LUT |
-| OBUF     |   32 |                  IO |
-| LUT4     |   27 |                 LUT |
-| FDRE     |   24 |        Flop & Latch |
-| FDCE     |   24 |        Flop & Latch |
-| LUT3     |   21 |                 LUT |
-| FDPE     |   15 |        Flop & Latch |
-| MUXF7    |    9 |               MuxFx |
-| LUT1     |    5 |                 LUT |
+| LUT6     |  808 |                 LUT |
+| LUT2     |  727 |                 LUT |
+| LUT3     |  516 |                 LUT |
+| LUT5     |  390 |                 LUT |
+| LUT4     |  381 |                 LUT |
+| CARRY4   |  380 |          CarryLogic |
+| FDCE     |  209 |        Flop & Latch |
+| LUT1     |  190 |                 LUT |
+| FDRE     |  140 |        Flop & Latch |
+| FDPE     |   51 |        Flop & Latch |
+| OBUF     |   46 |                  IO |
+| FDSE     |   44 |        Flop & Latch |
 | IBUF     |    5 |                  IO |
-| DSP48E1  |    1 |    Block Arithmetic |
-| BUFG     |    1 |               Clock |
+| DSP48E1  |    5 |    Block Arithmetic |
+| MUXF7    |    3 |               MuxFx |
+| BUFG     |    3 |               Clock |
 +----------+------+---------------------+
 
 
 8. Black Boxes
 --------------
 
-+----------+------+
-| Ref Name | Used |
-+----------+------+
++----------------+------+
+|    Ref Name    | Used |
++----------------+------+
+| satellite1_rom |    1 |
+| road1_rom      |    1 |
+| chris2_rom     |    1 |
+| chris1_rom     |    1 |
+| chara2_rom     |    1 |
+| chara1_rom     |    1 |
+| building2_rom  |    1 |
+| building1_rom  |    1 |
++----------------+------+
 
 
 9. Instantiated Netlists

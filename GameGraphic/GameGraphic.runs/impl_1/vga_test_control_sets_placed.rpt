@@ -1,0 +1,68 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Jan 09 12:06:19 2024
+| Host         : LAPTOP-AB75201K running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file vga_test_control_sets_placed.rpt
+| Design       : vga_test
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    15 |
+| Unused register locations in slices containing registers |    40 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              24 |           14 |
+| No           | No                    | Yes                    |              13 |            4 |
+| No           | Yes                   | No                     |              95 |           28 |
+| Yes          | No                    | No                     |              32 |           13 |
+| Yes          | No                    | Yes                    |              12 |            3 |
+| Yes          | Yes                   | No                     |              16 |            5 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------+------------------------------------+---------------------------------------+------------------+----------------+
+|                Clock Signal                |            Enable Signal           |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
++--------------------------------------------+------------------------------------+---------------------------------------+------------------+----------------+
+|  d100M/CLK                                 |                                    |                                       |                2 |              5 |
+|  clr_syn_inst/road_inst/d1M/counter_reg[0] |                                    |                                       |                2 |              8 |
+|  clk_50MHz_BUFG                            | vga_driver_inst/ena                |                                       |                3 |              8 |
+|  clk_50MHz_BUFG                            | vga_driver_inst/pix_data_reg[11]_6 |                                       |                2 |              8 |
+|  clk_50MHz_BUFG                            |                                    |                                       |               10 |             11 |
+|  clk_50MHz_BUFG                            |                                    | vga_driver_inst/img_addr              |                6 |             12 |
+|  clk_50MHz_BUFG                            |                                    | vga_driver_inst/img_addr_0            |                4 |             12 |
+|  clk_50MHz_BUFG                            |                                    | vga_driver_inst/SR[0]                 |                4 |             12 |
+|  clk_50MHz_BUFG                            |                                    | vga_driver_inst/pix_data_reg[11]_0[0] |                2 |             12 |
+|  clk_50MHz_BUFG                            |                                    | rst_n_IBUF                            |                3 |             12 |
+|  clk_50MHz_BUFG                            | vga_driver_inst/cnt_v[11]_i_1_n_0  | rst_n_IBUF                            |                3 |             12 |
+|  clk_50MHz_BUFG                            | vga_driver_inst/D[0]               |                                       |                8 |             16 |
+|  clk_50MHz_BUFG                            | vga_driver_inst/D[0]               | vga_driver_inst/SR[0]                 |                5 |             16 |
+|  clk_50MHz_BUFG                            |                                    | clr_syn_inst/road_inst/d1M/O_CLK_reg  |                5 |             19 |
+|  clk_100MHz_IBUF_BUFG                      |                                    | rst_n_IBUF                            |                8 |             29 |
++--------------------------------------------+------------------------------------+---------------------------------------+------------------+----------------+
+
+

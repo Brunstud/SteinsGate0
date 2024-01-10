@@ -1,6 +1,6 @@
 # do {Gate_logic_tb_simulate.do}
 # vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -lib xil_defaultlib xil_defaultlib.Gate_logic_tb xil_defaultlib.glbl 
-# Start time: 21:53:40 on Dec 26,2023
+# Start time: 16:35:19 on Jan 09,2024
 # //  ModelSim PE 10.4c Jul 20 2015 
 # //
 # //  Copyright 1991-2015 Mentor Graphics Corporation
@@ -16,11 +16,17 @@
 # //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
 # //
 # Loading xil_defaultlib.Gate_logic_tb
-# Loading xil_defaultlib.Gate_logic
+# Loading xil_defaultlib.Gate_logic2
+# Loading xil_defaultlib.calDistance
+# Loading xil_defaultlib.setObstacle
 # Loading xil_defaultlib.glbl
+# ** Warning: (vsim-3015) ../../../CentralGate.srcs/sim_1/new/Gate_logic_tb.v(41): [PCDPC] - Port size (15) does not match connection size (13) for port 'phi'. The port definition is at: ../../../CentralGate.srcs/sources_1/new/Gate_logic.v(155).
+#    Time: 0 ps  Iteration: 0  Instance: /Gate_logic_tb/uut File: ../../../CentralGate.srcs/sources_1/new/Gate_logic.v
+# ** Warning: (vsim-3015) ../../../CentralGate.srcs/sim_1/new/Gate_logic_tb.v(41): [PCDPC] - Port size (24) does not match connection size (22) for port 'off'. The port definition is at: ../../../CentralGate.srcs/sources_1/new/Gate_logic.v(156).
+#    Time: 0 ps  Iteration: 0  Instance: /Gate_logic_tb/uut File: ../../../CentralGate.srcs/sources_1/new/Gate_logic.v
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-# Character: 10, Offset: 000000000000000000000000000, Speed: 0000, Obstacle: 0000000000000, Game Over: 0, Game Win: 0
-# End time: 22:17:58 on Dec 26,2023, Elapsed time: 0:24:18
-# Errors: 0, Warnings: 0
+# Character: 1, Offset: 000000000000000000010010010, Speed: 0001, Obstacle: 0000000000, Game Over: 0, Game Win: 0
+# End time: 16:35:47 on Jan 09,2024, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 2

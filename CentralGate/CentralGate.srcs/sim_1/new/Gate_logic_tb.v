@@ -27,17 +27,18 @@ module Gate_logic_tb;
   // 为模块定义信号
   reg ena, rst_n, next_s;
   reg [2:0] operation;
-  wire [1:0] character;
+  wire character;
   wire [26:0] offset;
   wire [3:0] speed;
-  wire [12:0] obstacle;
+  wire [9:0] obstacle;
+  wire [7:0] obstimes;
   wire game_over, game_win;
   
   //测试
-  wire [15:0] phi;
-  wire [23:0] off;
+  wire [12:0] phi;
+  wire [21:0] off;
   // 实例化被测模块
-  Gate_logic uut (
+  Gate_logic2 uut (
     .ena(ena),
     .clk(clk),
     .rst_n(rst_n),
@@ -47,6 +48,7 @@ module Gate_logic_tb;
     .offset(offset),
     .speed(speed),
     .obstacle(obstacle),
+    .obstimes(obstimes),
     .game_over(game_over),
     .game_win(game_win),
     //测试
@@ -79,10 +81,10 @@ module Gate_logic_tb;
     next_s = 1;
     //repeat(2) begin #5 next_s = 1; #5 next_s = 0; end // n次运算
     
-    #20 operation = 3'b100;
+    #20 operation = 3'b101;
     //repeat(2) begin #20 next_s = 1; #5 next_s = 0; end // n次运算
     
-    #20 operation = 3'b010;
+    #20 operation = 3'b011;
     //repeat(60) begin #20 next_s = 1; #5 next_s = 0; end // n次运算
     
     // 等待一段时间，观察输出信号

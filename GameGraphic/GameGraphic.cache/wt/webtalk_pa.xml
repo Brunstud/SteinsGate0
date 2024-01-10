@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Jan 09 19:11:26 2024">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="ec5c5f36625d45859cd8f622f719ecd5" type="ProjectID"/>
+<property name="ProjectIteration" value="39" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddCfgMem" value="1" type="JavaHandler"/>
+<property name="AddSources" value="7" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="6" type="JavaHandler"/>
+<property name="CoreView" value="3" type="JavaHandler"/>
+<property name="CustomizeCore" value="4" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="EditPaste" value="3" type="JavaHandler"/>
+<property name="IPPackagerWizardHandler" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="36" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="49" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="17" type="JavaHandler"/>
+<property name="ProgramDevice" value="43" type="JavaHandler"/>
+<property name="RecustomizeCore" value="6" type="JavaHandler"/>
+<property name="RunBitgen" value="41" type="JavaHandler"/>
+<property name="ShowView" value="3" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceAtoD.AbstractFileView_RELOAD, Reload" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Coefficient Files], 4" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Coefficient Files], 4, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Coefficient Files], 4, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, vga_test (vga_test.v" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, D:/Program/vivado/SteinsGate0_GIT/GameGraphic/GameGraphic.xpr, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 127, 168" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 127, 168, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 127, 194" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 127, 194, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 129, 183" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 129, 183, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 134, 203" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 134, 203, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 143, 219" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 143, 219, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 145, 219" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 161, 260" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 165, 214, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 166, 214" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 190, 206" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 195, 223" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 202, 196" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 209, 181" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 218, 207" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 224, 196" value="1" type="GuiResourceData"/>
+<property name="vga_test.v, 230, 256" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="125" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="87" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

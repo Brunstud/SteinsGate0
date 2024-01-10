@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1703394438">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1704611231">
   <File Type="RDS-PROPCONSTRS" Name="test_ssd_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="test_ssd.tcl"/>
   <File Type="RDS-RDS" Name="test_ssd.vds"/>

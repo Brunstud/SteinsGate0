@@ -45,15 +45,17 @@ end
 genvar i;
 generate
     for (i = 0; i < 16; i = i + 1) begin : GEN_REGS
-        always @(posedge clk_5Hz or negedge ena) begin
+        always @(posedge clk_5Hz) begin
             if (!ena) begin
                 led[i] <= 1'b0;
-            end else if (!flicker) begin
-                if (i >= 15 - speed)  led[i] <= 1'b1;
-                else                  led[i] <= 1'b0;
             end else begin
-                if (i == lednum)      led[i] <= 1'b1;
-                else                  led[i] <= 1'b0;
+                if (!flicker) begin
+                    if (i >= 15 - speed)  led[i] <= 1'b1;
+                    else                  led[i] <= 1'b0;
+                end else begin
+                    if (i == lednum)      led[i] <= 1'b1;
+                    else                  led[i] <= 1'b0;
+                end
             end
         end
     end

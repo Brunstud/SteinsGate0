@@ -60,6 +60,7 @@ function [7:0] decode;
         endcase
         // 最高位小数点永远点亮
         decode = {decode[7:1], digit_index != 3'b111};
+        //if (digit_index == 3'b110) decode = 8'b1111_1110;
     end
 endfunction
 

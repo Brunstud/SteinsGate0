@@ -27,36 +27,36 @@ module vga_test(
     output          vga_vs,             // 场同步信号
     output  [11:0]  vga_rgb            // 红绿蓝输出
     );
-wire clk_25MHz;
-wire disp_en;
 wire VS_negedge;
-wire [11:0] pix_data;
-wire [11:0] pix_xpos;
-wire [11:0] pix_ypos;
-//时钟分频
-divider_2 d2(clk_100MHz, !rst_n, clk_50MHz);
-//颜色设置
-VGA_color_syn clr_syn_inst(
-    .vga_clk(clk_50MHz),        // VGA驱动时钟
-    .disp_en(disp_en),          // 显示有效信号
-    .pix_xpos(pix_xpos),        // 像素点横坐标
-    .pix_ypos(pix_ypos),        // 像素点纵坐标
-    .pix_data(pix_data)         // 像素点数据
-    );
-//VGA驱动器
-vga_driver_1024x600 vga_driver_inst(
-    .clk_50MHz(clk_50MHz),       // VGA驱动时钟
-    .rst_n(!rst_n),              // 复位信号，低电平有效
+// 前行速度
+reg chara = 0;
+reg [3:0] speed = 0;
+reg [9:0] obstacle = 512;
+reg [7:0] obstimes = 100;
+wire clk_1Hz;
+divider_100M d100M(clk_100MHz, !rst_n, clk_1Hz);
+always @(posedge clk_1Hz) begin
+    speed <= speed + 1;
+    if (speed == 0)
+        chara <= ~chara;
+    obstacle <= 512;
+    obstimes <= 100;
+    //if (obstimes == 0)obstimes <= 50;
+    //else obstimes <= obstimes + 1;
+end
+//VGA顶层模块
+vga_top vga_inst(
+    .clk_100MHz(clk_100MHz),     // 标准时钟
+    .rst_n(!rst_n),              // 复位信号，高电平有效（方便测试）
     
-    .disp_en(disp_en),                 //显示有效信号
-    .VS_negedge(VS_negedge),           //输出场信号下降沿
+    .chara(chara),          // 角色状态
+    .speed(speed),          // 行进速度
+    .obstacle(obstacle),       // 障碍物位置
+    .obstimes(obstimes),       // 障碍物大小
     
     .vga_hs(vga_hs),             // 行同步信号
     .vga_vs(vga_vs),             // 场同步信号
     .vga_rgb(vga_rgb),           // 红绿蓝输出
-
-    .pix_data(pix_data),           // 像素点数据
-    .pix_xpos(pix_xpos),           // 像素点横坐标
-    .pix_ypos(pix_ypos)            // 像素点纵坐标
+    .VS_negedge(VS_negedge)      // 下降沿信号
     );
 endmodule

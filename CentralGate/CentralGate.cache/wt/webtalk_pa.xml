@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Tue Dec 26 22:17:50 2023">
+<application name="pa" timeStamp="Thu Jan 11 00:07:17 2024">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="5b1649f2774e49c98f60b225a8d098fe" type="ProjectID"/>
-<property name="ProjectIteration" value="28" type="ProjectIteration"/>
+<property name="ProjectIteration" value="93" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -18,51 +18,29 @@ This means code written to parse this file will need to be revisited each subseq
 </item>
 <item name="Java Command Handlers">
 <property name="AddCfgMem" value="1" type="JavaHandler"/>
-<property name="AddSources" value="5" type="JavaHandler"/>
-<property name="EditPaste" value="1" type="JavaHandler"/>
+<property name="AddSources" value="14" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="17" type="JavaHandler"/>
+<property name="CloseProject" value="3" type="JavaHandler"/>
+<property name="CoreView" value="6" type="JavaHandler"/>
+<property name="CustomizeCore" value="8" type="JavaHandler"/>
+<property name="EditDelete" value="15" type="JavaHandler"/>
+<property name="EditPaste" value="7" type="JavaHandler"/>
 <property name="EditUndo" value="3" type="JavaHandler"/>
-<property name="LaunchProgramFpga" value="25" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="77" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
-<property name="OpenHardwareManager" value="28" type="JavaHandler"/>
-<property name="OpenRecentTarget" value="3" type="JavaHandler"/>
-<property name="ProgramDevice" value="32" type="JavaHandler"/>
-<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
-<property name="RunBitgen" value="28" type="JavaHandler"/>
-<property name="RunSynthesis" value="10" type="JavaHandler"/>
-<property name="SaveDesign" value="2" type="JavaHandler"/>
-<property name="ShowView" value="6" type="JavaHandler"/>
-<property name="SimulationRun" value="17" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="104" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="24" type="JavaHandler"/>
+<property name="ProgramDevice" value="93" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="2" type="JavaHandler"/>
+<property name="RecustomizeCore" value="9" type="JavaHandler"/>
+<property name="RunBitgen" value="95" type="JavaHandler"/>
+<property name="RunImplementation" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="23" type="JavaHandler"/>
+<property name="SaveDesign" value="4" type="JavaHandler"/>
+<property name="ShowView" value="27" type="JavaHandler"/>
+<property name="SimulationRun" value="35" type="JavaHandler"/>
 <property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
-<property name="ViewTaskSynthesis" value="2" type="JavaHandler"/>
-</item>
-<item name="Gui Resources Info">
-<property name="Gate_logic.v, 134, 307" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 154, 252" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 193, 157" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 294, 225" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 412, 306" value="1" type="GuiResourceData"/>
-<property name="Gate_test.v, 173, 175" value="1" type="GuiResourceData"/>
-<property name="Gate_test.v, 183, 124" value="1" type="GuiResourceData"/>
-<property name="Gate_test.v, 188, 182" value="1" type="GuiResourceData"/>
-<property name="Gate_test.v, 196, 105" value="1" type="GuiResourceData"/>
-<property name="Gate_test.v, 216, 183" value="1" type="GuiResourceData"/>
-<property name="Gate_test.v, 264, 159" value="1" type="GuiResourceData"/>
-<property name="Gate_test.v, 315, 259" value="1" type="GuiResourceData"/>
-<property name="Gate_test.v, 315, 305" value="1" type="GuiResourceData"/>
-<property name="Gate_test.v, 329, 202" value="1" type="GuiResourceData"/>
-<property name="Gate_test.v, 396, 203, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 233, 32" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 255, 34" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 262, 55" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.LogMonitor_MONITOR, 267, 59" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
-<property name="RDIResourceCommand.RDICommands_SAVE_FILE, (String" value="1" type="GuiResourceData"/>
-</item>
-<item name="Other">
-<property name="GuiMode" value="108" type="GuiMode"/>
-<property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="73" type="TclMode"/>
+<property name="ViewTaskSynthesis" value="5" type="JavaHandler"/>
 </item>
 </section>
 </application>

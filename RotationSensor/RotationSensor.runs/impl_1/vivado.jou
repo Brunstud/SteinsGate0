@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Jan 09 23:35:00 2024
+# Process ID: 12752
+# Current directory: D:/Program/vivado/SteinsGate0_GIT/RotationSensor/RotationSensor.runs/impl_1
+# Command line: vivado.exe -log RotaryEncoder.vdi -applog -messageDb vivado.pb -mode batch -source RotaryEncoder.tcl -notrace
+# Log file: D:/Program/vivado/SteinsGate0_GIT/RotationSensor/RotationSensor.runs/impl_1/RotaryEncoder.vdi
+# Journal file: D:/Program/vivado/SteinsGate0_GIT/RotationSensor/RotationSensor.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source RotaryEncoder.tcl -notrace

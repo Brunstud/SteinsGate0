@@ -4,7 +4,6 @@
 
 set_param xicom.use_bs_reader 1
 set_param simulator.modelsimInstallPath C:/modeltech_pe_10.4c/win32pe
-set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
 create_project -in_memory -part xc7a100tcsg324-1
@@ -14,15 +13,49 @@ set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_property webtalk.parent_dir D:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.cache/wt [current_project]
 set_property parent.project_path D:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.xpr [current_project]
+set_property XPM_LIBRARIES XPM_MEMORY [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/chara1.coe
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/road1.coe
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/chara2.coe
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/satellite1.coe
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/chris1.coe
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/chris2.coe
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/building1.coe
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/building2.coe
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/sate.coe
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/build1.coe
+add_files D:/Program/vivado/SteinsGate0_GIT/CentralGate/build2.coe
+add_files -quiet d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/chara1_rom/chara1_rom.dcp
+set_property used_in_implementation false [get_files d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/chara1_rom/chara1_rom.dcp]
+add_files -quiet d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/chara2_rom/chara2_rom.dcp
+set_property used_in_implementation false [get_files d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/chara2_rom/chara2_rom.dcp]
+add_files -quiet d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/road1_rom/road1_rom.dcp
+set_property used_in_implementation false [get_files d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/road1_rom/road1_rom.dcp]
+add_files -quiet d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/satellite1_rom/satellite1_rom.dcp
+set_property used_in_implementation false [get_files d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/satellite1_rom/satellite1_rom.dcp]
+add_files -quiet d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/chris2_rom/chris2_rom.dcp
+set_property used_in_implementation false [get_files d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/chris2_rom/chris2_rom.dcp]
+add_files -quiet d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/chris1_rom/chris1_rom.dcp
+set_property used_in_implementation false [get_files d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/chris1_rom/chris1_rom.dcp]
+add_files -quiet d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/building1_rom/building1_rom.dcp
+set_property used_in_implementation false [get_files d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/building1_rom/building1_rom.dcp]
+add_files -quiet d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/building2_rom/building2_rom.dcp
+set_property used_in_implementation false [get_files d:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/ip/building2_rom/building2_rom.dcp]
 read_verilog -library xil_defaultlib {
+  D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/new/divider.v
+  D:/Program/vivado/SteinsGate0_GIT/GameGraphic/GameGraphic.srcs/sources_1/new/Game_Layers.v
   D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/divider.v
+  D:/Program/vivado/SteinsGate0_GIT/GameGraphic/GameGraphic.srcs/sources_1/new/VGA_game_layers_syn.v
+  D:/Program/vivado/SteinsGate0_GIT/VGA/VGA.srcs/sources_1/new/vga_driver_1024x600.v
   D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/speed_led_display.v
   D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/seven_segment_display.v
   D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/hex_to_bcd.v
+  D:/Program/vivado/SteinsGate0_GIT/RotationSensor/RotationSensor.srcs/sources_1/new/RotationSensor.v
+  D:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/new/jump_logic.v
   D:/Program/vivado/SteinsGate0_GIT/Glowtube/Glowtube.srcs/sources_1/new/display_seg.v
-  D:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/new/Gate_logic.v
+  D:/Program/vivado/SteinsGate0_GIT/GameGraphic/GameGraphic.srcs/sources_1/new/vga_top.v
   D:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.srcs/sources_1/new/Gate_test.v
 }
 foreach dcp [get_files -quiet -all *.dcp] {
