@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sat Jan 13 17:53:01 2024">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="0e78f38c01fb4da2a333012fccf0c83a" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="4" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="3" type="GuiResourceData"/>
+<property name="GateFSM.v, 1, 84" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 100, 310" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 100, 66" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 104, 162" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 105, 274" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 108, 374" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 109, 315" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 110, 213" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 112, 161" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 112, 260" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 115, 241" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 115, 369" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 117, 315" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 118, 123" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 118, 294" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 119, 185" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 119, 202" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 120, 260" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 120, 315" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 120, 329" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 121, 235" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 121, 256" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 124, 214" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 124, 218" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 124, 317" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 124, 341" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 126, 297" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 127, 307" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 132, 328" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 136, 357" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 137, 276" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 138, 298" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 138, 351" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 139, 331" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 142, 283" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 143, 326" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 144, 293" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 148, 338" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 148, 347" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 149, 180" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 150, 280" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 151, 162" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 154, 267" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 156, 185" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 157, 297" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 159, 240" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 16, 109" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 160, 212" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 160, 222" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 162, 206" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 162, 232" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 163, 233" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 163, 357" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 164, 294" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 166, 218" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 168, 217" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 168, 280" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 169, 142" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 170, 370" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 171, 362" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 175, 146" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 178, 202" value="2" type="GuiResourceData"/>
+<property name="GateFSM.v, 182, 200" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 182, 215" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 183, 234" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 183, 290" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 183, 318" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 184, 248" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 184, 275" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 185, 272" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 185, 278" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 188, 205" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 190, 295" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 192, 187" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 192, 213" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 192, 222" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 192, 254" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 194, 102" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 196, 257" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 198, 215" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 200, 262" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 203, 255" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 203, 258" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 203, 357" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 205, 352" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 207, 332" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 207, 349" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 208, 261" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 208, 266" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 210, 316" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 211, 255" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 211, 353" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 212, 216" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 212, 270" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 213, 334" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 213, 334, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 216, 302" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 217, 279" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 219, 251" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 226, 255" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 229, 206" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 23, 205" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 231, 328" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 234, 339" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 237, 116" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 237, 280" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 241, 330" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 247, 271" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 249, 255" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 251, 153" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 252, 260" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 259, 257" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 260, 254" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 265, 259" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 265, 328" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 265, 335" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 267, 223" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 267, 273" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 269, 322" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 271, 165" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 272, 223" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 273, 316" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 275, 222" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 279, 258" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 280, 296" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 285, 349" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 291, 274" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 293, 140" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 295, 256" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 296, 272" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 299, 218" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 301, 370" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 306, 156" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 307, 311" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 315, 257" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 323, 296" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 331, 257" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 331, 261" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 381, 240" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 435, 249" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 50, 179" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 51, 339" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 54, 290" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 56, 276" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 56, 316" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 59, 101" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 59, 181" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 60, 365" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 61, 166" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 62, 201" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 62, 209" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 62, 239" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 65, 207" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 66, 180" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 74, 314" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 76, 326" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 76, 334" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 83, 337" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 88, 178" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 90, 123" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 94, 159" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 94, 278" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 94, 351" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 95, 216" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 95, 238" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 95, 297" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 95, 298" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 95, 321" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 96, 279" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 97, 261" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 97, 295" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 98, 216" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 98, 218" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 98, 241" value="1" type="GuiResourceData"/>
+<property name="GateFSM.v, 98, 316" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 105, 273" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 110, 160" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 111, 273" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 114, 350" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 119, 106" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 130, 99" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 133, 292" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 137, 311" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 138, 303" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 147, 119" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 149, 283" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 149, 292" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 156, 313" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 157, 178" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 158, 144" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 169, 256" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 170, 216" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 171, 221" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 172, 249" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 175, 237" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 179, 298" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 185, 196" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 203, 291" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 204, 309" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 209, 332" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 253, 205" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 255, 290" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 273, 140" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 305, 272" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 305, 286" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 48, 299" value="2" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 68, 359" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 71, 268" value="1" type="GuiResourceData"/>
+<property name="GateFSM_tb.v, 95, 362" value="1" type="GuiResourceData"/>
+<property name="Gate_test.v, 366, 77" value="1" type="GuiResourceData"/>
+<property name="Gate_test.v, 404, 80" value="1" type="GuiResourceData"/>
+<property name="Gate_test.v, 95, 86" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 104, 258" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 108, 257" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 109, 218" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 109, 278" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 110, 316" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 114, 256" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 115, 127" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 119, 105" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 121, 144" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 155, 255" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 157, 161" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 166, 164" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 175, 125" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 187, 277" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 205, 276" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 214, 259" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 238, 106" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 261, 278" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 270, 195" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 275, 272" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 312, 281" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 313, 198" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 349, 281" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 36, 160" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 405, 143" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 41, 164" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 46, 178" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 468, 202" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 59, 274" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 60, 201" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 67, 281" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 73, 278" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 74, 121" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 74, 163" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 75, 103" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 77, 119" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 81, 145" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 82, 143" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 85, 184" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 86, 145" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 89, 296" value="1" type="GuiResourceData"/>
+<property name="Gate_top.v, 95, 274" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="3" type="GuiResourceData"/>
+<property name="OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, Gate" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, GateFSM_tb" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, Gate_top" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources" value="3" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="7" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 6" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, GateFSM (GateFSM.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Gate_test (Gate_test.v" value="6" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Gate_top (Gate_top.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, GateFSM_tb (GateFSM_tb.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 8" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 7" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Simulation Settings], 10, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, D:/Program/vivado/SteinsGate0_GIT/GateFSM/GateFSM.xpr, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_SELECT_TESTBENCH_TOP_MODULE, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_TARGET_SIMULATOR, ModelSim Simulator, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, Gate_ctrl_tb, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, Gate_ctrl_tb, 1, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, Add Files" value="6" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="6" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="5" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_BACKGROUND, Background" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_DELETE, Remove File from Project..." value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_SAVE_FILE, (String" value="13" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="135" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="92" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

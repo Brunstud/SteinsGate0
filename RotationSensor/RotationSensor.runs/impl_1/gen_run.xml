@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1704814474">
+  <File Type="OPT-DCP" Name="RotaryEncoder_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="RotaryEncoder_route_status.pb"/>
   <File Type="PA-TCL" Name="RotaryEncoder.tcl"/>
-  <File Type="OPT-DCP" Name="RotaryEncoder_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="RotaryEncoder_timing_summary_init.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="RotaryEncoder_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="RotaryEncoder.vdi"/>
   <File Type="PWROPT-DRC" Name="RotaryEncoder_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="RotaryEncoder_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="RotaryEncoder_timing_summary_init.rpt"/>
   <File Type="OPT-DRC" Name="RotaryEncoder_drc_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="RotaryEncoder_pwropt.dcp"/>
   <File Type="OPT-HWDEF" Name="RotaryEncoder.hwdef"/>
@@ -31,8 +31,8 @@
   <File Type="ROUTE-DRC" Name="RotaryEncoder_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="RotaryEncoder_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="RotaryEncoder_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="RotaryEncoder_methodology_drc_routed.pb"/>
   <File Type="BG-BIT" Name="RotaryEncoder.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="RotaryEncoder_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR" Name="RotaryEncoder_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="RotaryEncoder_power_summary_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="RotaryEncoder_power_routed.rpx"/>

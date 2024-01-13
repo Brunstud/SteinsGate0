@@ -1,0 +1,1 @@
+-wto "04f753cab2b54f919edfeddbc6223fe6" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "RotaryEncoder_tb_behav" "xil_defaultlib.RotaryEncoder_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

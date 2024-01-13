@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1703522147">
-  <File Type="PA-TCL" Name="vga_test.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="vga_test_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="vga_test.tcl"/>
   <File Type="RDS-RDS" Name="vga_test.vds"/>
   <File Type="RDS-UTIL" Name="vga_test_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="vga_test_utilization_synth.pb"/>

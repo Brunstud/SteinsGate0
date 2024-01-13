@@ -1,8 +1,8 @@
 @echo off
-set bin_path=C:\\modeltech_pe_10.4c\\win32pe
-call %bin_path%/vsim   -do "do {testbench_simulate.do}" -l simulate.log
-if "%errorlevel%"=="1" goto END
+set xv_path=C:\\Xilinx\\Vivado\\2016.2\\bin
+call %xv_path%/xsim testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch testbench.tcl -log simulate.log
 if "%errorlevel%"=="0" goto SUCCESS
+if "%errorlevel%"=="1" goto END
 :END
 exit 1
 :SUCCESS

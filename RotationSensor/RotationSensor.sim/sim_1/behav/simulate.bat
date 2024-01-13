@@ -1,8 +1,8 @@
 @echo off
-set bin_path=C:\\modeltech_pe_10.4c\\win32pe
-call %bin_path%/vsim   -do "do {RotaryEncoder_tb_simulate.do}" -l simulate.log
-if "%errorlevel%"=="1" goto END
+set xv_path=C:\\Xilinx\\Vivado\\2016.2\\bin
+call %xv_path%/xsim RotaryEncoder_tb_behav -key {Behavioral:sim_1:Functional:RotaryEncoder_tb} -tclbatch RotaryEncoder_tb.tcl -log simulate.log
 if "%errorlevel%"=="0" goto SUCCESS
+if "%errorlevel%"=="1" goto END
 :END
 exit 1
 :SUCCESS
