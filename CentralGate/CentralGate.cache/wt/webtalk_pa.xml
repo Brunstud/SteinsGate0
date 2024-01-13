@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sun Jan 14 00:20:52 2024">
+<application name="pa" timeStamp="Sun Jan 14 01:51:09 2024">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="5b1649f2774e49c98f60b225a8d098fe" type="ProjectID"/>
-<property name="ProjectIteration" value="96" type="ProjectIteration"/>
+<property name="ProjectIteration" value="98" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -19,7 +19,7 @@ This means code written to parse this file will need to be revisited each subseq
 <item name="Java Command Handlers">
 <property name="AddCfgMem" value="1" type="JavaHandler"/>
 <property name="AddSources" value="19" type="JavaHandler"/>
-<property name="AutoConnectTarget" value="17" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="19" type="JavaHandler"/>
 <property name="CloseProject" value="3" type="JavaHandler"/>
 <property name="CoreView" value="6" type="JavaHandler"/>
 <property name="CustomizeCore" value="8" type="JavaHandler"/>
@@ -27,19 +27,19 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="EditPaste" value="7" type="JavaHandler"/>
 <property name="EditUndo" value="3" type="JavaHandler"/>
 <property name="FitSelection" value="2" type="JavaHandler"/>
-<property name="LaunchProgramFpga" value="79" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="81" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
-<property name="OpenHardwareManager" value="106" type="JavaHandler"/>
-<property name="OpenRecentTarget" value="24" type="JavaHandler"/>
-<property name="ProgramDevice" value="95" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="111" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="26" type="JavaHandler"/>
+<property name="ProgramDevice" value="97" type="JavaHandler"/>
 <property name="ProjectSettingsCmdHandler" value="3" type="JavaHandler"/>
 <property name="RecustomizeCore" value="9" type="JavaHandler"/>
-<property name="RunBitgen" value="97" type="JavaHandler"/>
+<property name="RunBitgen" value="99" type="JavaHandler"/>
 <property name="RunImplementation" value="2" type="JavaHandler"/>
 <property name="RunSchematic" value="2" type="JavaHandler"/>
 <property name="RunSynthesis" value="24" type="JavaHandler"/>
 <property name="SaveDesign" value="4" type="JavaHandler"/>
-<property name="SetTopNode" value="1" type="JavaHandler"/>
+<property name="SetTopNode" value="3" type="JavaHandler"/>
 <property name="ShowView" value="30" type="JavaHandler"/>
 <property name="SimulationRun" value="40" type="JavaHandler"/>
 <property name="ToggleAutoFitSelection" value="2" type="JavaHandler"/>
@@ -49,116 +49,16 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ZoomOut" value="2" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="FINISH, Finish" value="1" type="GuiResourceData"/>
-<property name="Game_Layers.v, 1, 221" value="1" type="GuiResourceData"/>
-<property name="Game_Layers.v, 1, 257" value="1" type="GuiResourceData"/>
-<property name="Game_Layers.v, 2, 180" value="1" type="GuiResourceData"/>
-<property name="Game_Layers.v, 2, 201" value="1" type="GuiResourceData"/>
-<property name="Game_Layers.v, 42, 225" value="1" type="GuiResourceData"/>
-<property name="Game_Layers.v, 42, 257" value="1" type="GuiResourceData"/>
-<property name="Game_Layers.v, 43, 180" value="1" type="GuiResourceData"/>
-<property name="Game_Layers.v, 89, 144" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 184, 212" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 192, 219" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 202, 235" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 208, 270" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 216, 290" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 221, 242" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 418, 271" value="1" type="GuiResourceData"/>
-<property name="Gate_logic.v, 447, 198" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 109, 218" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 114, 313" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 115, 88" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 131, 276" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 132, 220" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 138, 280" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 143, 335" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 145, 256" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 146, 269" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 184, 315" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 220, 275" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 223, 218" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 234, 333" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 37, 203" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 420, 337" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 68, 103" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 69, 275" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 71, 333" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 72, 221" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 84, 195" value="1" type="GuiResourceData"/>
-<property name="Gate_logic_tb.v, 87, 259" value="1" type="GuiResourceData"/>
-<property name="NEXT, Next " value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources" value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="5" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Gate_logic2 (Gate_logic.v" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Gate_top (Gate_top.v" value="36" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Gate_logic_tb (Gate_logic_tb.v" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 18" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 17" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="6" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Simulation Settings], 10, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Open Synthesized Design, Schematic], 29, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Open Synthesized Design], 18" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, D:/Program/vivado/SteinsGate0_GIT/CentralGate/CentralGate.xpr, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PAViews_CODE, Code" value="11" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PAViews_SCHEMATIC, Schematic" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, Add Files" value="1" type="GuiResourceData"/>
-<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
-<property name="RDIResourceCommand.RDICommands_COPY, Copy" value="1" type="GuiResourceData"/>
-<property name="RDIResourceCommand.RDICommands_SAVE_FILE, (String" value="6" type="GuiResourceData"/>
-<property name="RotationSensor.v, 100, 220" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 101, 221" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 105, 120" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 116, 108" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 118, 87" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 147, 219" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 152, 84" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 154, 215" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 168, 304" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 181, 225" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 182, 257" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 207, 219" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 211, 84" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 214, 253" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 223, 329" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 238, 231" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 243, 206" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 247, 258" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 286, 101" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 349, 311" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 354, 160" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 357, 148" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 455, 261" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 64, 255" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 64, 87" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 70, 310" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 71, 199" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 71, 200" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 72, 202" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 76, 203" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 77, 194" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 82, 257" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 91, 275" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 97, 108" value="1" type="GuiResourceData"/>
-<property name="RotationSensor.v, 99, 355" value="1" type="GuiResourceData"/>
-<property name="VGA_game_layers_syn.v, 0, 197" value="1" type="GuiResourceData"/>
-<property name="display_seg.v, 1, 200" value="1" type="GuiResourceData"/>
-<property name="hex_to_bcd.v, 80, 320, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="hex_to_bcd.v, 80, 373" value="1" type="GuiResourceData"/>
-<property name="meet_logic.v, 3, 196" value="1" type="GuiResourceData"/>
-<property name="seven_segment_display.v, 1, 201" value="1" type="GuiResourceData"/>
-<property name="seven_segment_display.v, 247, 253" value="1" type="GuiResourceData"/>
-<property name="speed_led_display.v, 1, 202" value="1" type="GuiResourceData"/>
-<property name="vga_driver_1024x600.v, 2, 197" value="1" type="GuiResourceData"/>
-<property name="vga_driver_1024x600.v, 340, 134" value="1" type="GuiResourceData"/>
-<property name="vga_top.v, 1, 199" value="1" type="GuiResourceData"/>
-<property name="vga_top.v, 210, 255" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Program Device], 28, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Open Hardware Manager, Open Target], 27, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="137" type="GuiMode"/>
+<property name="GuiMode" value="140" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="93" type="TclMode"/>
+<property name="TclMode" value="95" type="TclMode"/>
 </item>
 </section>
 </application>

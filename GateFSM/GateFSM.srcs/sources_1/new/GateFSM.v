@@ -98,7 +98,7 @@ always @(state or rst_n) begin
                 RS_en <= 1;
                 GL_en <= 1;     // 逻辑处理器运行
                 DP_en <= 1;
-                DP_ch <= 2'b00; // 显示偏移量及速度
+                DP_ch <= 2'b10; // 显示偏移量及速度
                 VGA_en <= 1;
             end
             // 游戏结束状态
