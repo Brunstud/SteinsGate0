@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="road1_rom_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1704790668">
-  <File Type="RDS-PROPCONSTRS" Name="road1_rom_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="road1_rom.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="road1_rom_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="road1_rom.vds"/>
   <File Type="RDS-UTIL" Name="road1_rom_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="road1_rom_utilization_synth.pb"/>
