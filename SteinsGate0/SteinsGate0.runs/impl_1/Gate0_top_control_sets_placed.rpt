@@ -1,0 +1,77 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Jan 14 17:23:05 2024
+| Host         : LAPTOP-AB75201K running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Gate0_top_control_sets_placed.rpt
+| Design       : Gate0_top
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    24 |
+| Unused register locations in slices containing registers |    68 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              18 |           10 |
+| No           | No                    | Yes                    |              74 |           33 |
+| No           | Yes                   | No                     |             119 |           44 |
+| Yes          | No                    | No                     |              46 |           23 |
+| Yes          | No                    | Yes                    |             107 |           37 |
+| Yes          | Yes                   | No                     |              48 |           14 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------+-------------------------------------------+------------------------------------------------------------+------------------+----------------+
+|               Clock Signal              |               Enable Signal               |                      Set/Reset Signal                      | Slice Load Count | Bel Load Count |
++-----------------------------------------+-------------------------------------------+------------------------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG                          |                                           | reset_IBUF                                                 |                1 |              2 |
+|  clk_50MHz                              |                                           | vga_uut/clr_syn_inst/chara_inst/ch_pix_data[0][11]_i_1_n_1 |                1 |              4 |
+|  n_0_2952_BUFG                          | gate_uut/counter[6]_i_1_n_1               | ctrl_uut/over_flag_reg                                     |                3 |              7 |
+|  vga_uut/clr_syn_inst/road_inst/d1M/CLK |                                           |                                                            |                2 |              8 |
+|  clk_50MHz                              |                                           | vga_uut/vga_driver_inst/SS[0]                              |                4 |              8 |
+|  clk_50MHz                              |                                           |                                                            |                8 |             10 |
+|  clk_50MHz                              |                                           | vga_uut/vga_driver_inst/img_addr                           |                6 |             12 |
+|  clk_50MHz                              |                                           | vga_uut/vga_driver_inst/SR[0]                              |                3 |             12 |
+|  clk_50MHz                              |                                           | vga_uut/vga_driver_inst/ch_addr_reg[1][15]_7[0]            |                7 |             12 |
+|  clk_50MHz                              |                                           | vga_uut/vga_driver_inst/pix_data_reg[11]_2[0]              |                5 |             12 |
+|  clk_50MHz                              | vga_uut/vga_driver_inst/cnt_v[11]_i_1_n_1 | ctrl_uut/cnt_v_reg[8]                                      |                5 |             12 |
+|  clk_50MHz                              |                                           | ctrl_uut/cnt_v_reg[8]                                      |                4 |             14 |
+|  clk_50MHz                              | vga_uut/vga_driver_inst/D[0]              | vga_uut/vga_driver_inst/SR[0]                              |                5 |             16 |
+|  clk_50MHz                              | vga_uut/vga_driver_inst/D[0]              | vga_uut/vga_driver_inst/SS[0]                              |                5 |             16 |
+|  clk_50MHz                              | vga_uut/vga_driver_inst/D[0]              | vga_uut/vga_driver_inst/ch_addr_reg[1][15]_7[0]            |                4 |             16 |
+|  n_0_2952_BUFG                          | gate_uut/Offset                           | ctrl_uut/over_flag_reg                                     |                5 |             18 |
+|  clk_50MHz                              |                                           | vga_uut/clr_syn_inst/road_inst/d1M/O_CLK_reg               |                5 |             19 |
+|  seg_uut/uut2/divider_uut/O_CLK_reg     |                                           | gate_uut/AS[0]                                             |               10 |             20 |
+|  n_0_2952_BUFG                          |                                           | ctrl_uut/over_flag_reg                                     |               11 |             21 |
+|  n_0_2952_BUFG                          | gate_uut/Offset[1][26]_i_1_n_1            | ctrl_uut/over_flag_reg                                     |                7 |             23 |
+|  clk_IBUF_BUFG                          |                                           | gate_uut/AS[0]                                             |                6 |             24 |
+|  clk_IBUF_BUFG                          |                                           | ctrl_uut/cnt_v_reg[8]                                      |               14 |             33 |
+|  clk_50MHz                              | vga_uut/vga_driver_inst/D[0]              |                                                            |               23 |             46 |
+|  n_0_2952_BUFG                          | gate_uut/p_6_in                           | ctrl_uut/over_flag_reg                                     |               17 |             47 |
++-----------------------------------------+-------------------------------------------+------------------------------------------------------------+------------------+----------------+
+
+
